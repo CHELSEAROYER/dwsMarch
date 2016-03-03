@@ -1,3 +1,3 @@
-Live Site: http://chelsearoyer.github.io/DWS/index.html
+Live Site: http://CHELSEAROYER.github.io/dwsMarch/Dano-Chelsea-project1/index.html
 
-Git Hub Repo: https://github.com/CHELSEAROYER/DWS/blob/gh-pages/index.html
+Git Hub Repo: https://github.com/CHELSEAROYER/dwsMarch/tree/gh-pages/Dano-Chelsea-project1
