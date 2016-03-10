@@ -1,6 +1,6 @@
 /*----WANTED NAVIGATION TO DIPLAY HORIZONTALLY----*/
 
-/*When I use desecdant selectors the CSS does not appear to register.*/
+/*When I use descendant selectors the CSS does not appear to register.*/
 nav li{
     display: inline;
     margin: 10px;
