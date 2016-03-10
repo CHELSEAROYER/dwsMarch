@@ -1,7 +1,7 @@
 /*----WANTED NAVIGATION TO DIPLAY HORIZONTALLY----*/
 
-
-li.mainNav {
+/*When I use desecdant selectors the CSS does not appear to register.*/
+nav li{
     display: inline;
     margin: 10px;
 }
