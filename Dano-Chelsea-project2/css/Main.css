@@ -9,7 +9,7 @@ nav li{
 /*--------List Style Type -for Beignet -------*/
 
 
-li.ListStyleType{
+ol li{
 	list-style-type:circle;
 }
 
