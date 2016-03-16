@@ -1,0 +1,161 @@
+/*----WANTED NAVIGATION TO DIPLAY HORIZONTALLY----*/
+
+/*When I use descendant selectors the CSS does not appear to register.*/
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+/*--------List Style Type -for Beignet -------*/
+
+
+ol li{
+	list-style-type:circle;
+}
+
+
+/*--------------------------------------------------------*/
+/*    STYLING LINKS IN MAIN NAVIGATION     */
+
+a:link {
+    color: rgb(255,0,0);/*RED*/
+}
+
+/* visited link */
+a:visited {
+    color: rgb(100,100,100);/*WHITE*/
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(100,100,100);/*WHITE*/
+}
+
+/* selected link */
+a:active {
+    color: rgb(0,0,255);/*BLUE*/
+}
+
+/*------------------------------------------------*/
+
+
+/*-----------TEXT STYLE---------------*/
+
+@font-face{
+	font-family: 'Roboto', sans-serif;
+	<link href='https://fonts.googleapis.com/css?family=Roboto' 
+	rel='stylesheet' type='text/css'>
+	format ("Wof"); /*I have no idea why I'm getting validation errors on line 47 & 48?*/
+}
+
+
+h1{
+	font-size:250%;
+    text-shadow: 2px 1px #000000;
+
+}
+
+p{
+    text-indent: 50px;
+}
+
+/*--------------------------------------------------------*/
+
+body{
+	width:1050px;
+	margin:10px auto;
+	background-color: rgba(214,126,92,0.8);/* 2nd warm tone*/
+	font-style:normal;
+	font-weight:normal;
+	font-size:100%;
+	line-height:25px;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+/*---------------THIS IS FOR BOX MODEL STYLING------------*/
+
+article#Beignet{
+	width:500px;
+	height:1200px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+
+
+}
+
+article#Bosschebol{
+	width:500px;
+	height:900px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+}
+
+article#Chouquette{
+	width:500px;
+	height:750px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+}
+
+article#Croquembouche{
+	width:500px;
+	height:1000px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+}
+
+article#puffs{
+	width:500px;
+	height:600px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+}
+
+article#cake{
+	width:500px;
+	height:700px;
+	padding:10px;
+	border:2px;
+	border-style:solid; 
+	border-color:rgba(113,51,38,0.7);
+	border-radius:25px;
+	margin:25px;
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+	
+}
+
+
+
+
+
+
+
+
+
