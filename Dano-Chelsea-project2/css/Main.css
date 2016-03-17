@@ -69,8 +69,11 @@ body{
 	width:100%;
 	margin:5% auto;
 	/* Added background short hand -But I don't see it al all...*/
-	background:rgba(113,51,38,0.7) url("../images/fork-spoon.png") no-repeat attached top right,
-	url("../images/simple-scales.gif") repeat-x;
+	background-color:rgba(113,51,38,0.5);
+	background-image:url("../images/fork-spoon.png"),
+			   		 url("../images/simple-scales.gif");
+	background-repeat:no-repeat, repeat-x;
+	background-position:top right, top;
 	font: normal normal .8em 'Roboto', sans-serif; /*Chris, is the set of 
 	"normal normal" nessisary?*/
 	/*font-style:normal;
