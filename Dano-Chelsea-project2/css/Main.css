@@ -41,12 +41,11 @@ a:active {
 
 /*-----------TEXT STYLE---------------*/
 
-@font-face{
+/*@font-face{
 	font-family: 'Roboto', sans-serif;
 	<link href='https://fonts.googleapis.com/css?family=Roboto' 
 	rel='stylesheet' type='text/css'>
 	format ("Wof"); /*I have no idea why I'm getting validation errors on line 47 & 48?*/
-}
 
 
 h1{
@@ -71,7 +70,7 @@ body{
 	font-weight:normal;
 	font-size:100%;-----THE OLD VERSION---*/
 	line-height:25px;
-	/*font-family: 'Roboto', sans-serif;*/
+	font-family: 'Roboto Condensed', sans-serif;
 
 
 }
