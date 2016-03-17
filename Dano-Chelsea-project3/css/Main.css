@@ -1,10 +1,8 @@
-/*----WANTED NAVIGATION TO DISPLAY HORIZONTALLY----*/
 
-/*When I use descendant selectors the CSS does not appear to register.*/
 nav li{
     display: inline;
     margin: 2.5%;
-    font-size:200%;
+    font-size:150%;
 }
 
 /*--------List Style Type -for Beignet -------*/
@@ -52,11 +50,13 @@ a:active {
 h1{
 	font-size:250%;
     text-shadow: 2px 1px #000000;
+    text-align:center;
 
 }
 
 p{
     text-indent: 50px;
+    font-size:100%
 }
 
 footer{
@@ -71,7 +71,7 @@ body{
 	/* Added background short hand -But I don't see it al all...*/
 	background-color:rgba(113,51,38,0.5);
 	background-image:url("../images/fork-spoon.png"),
-			   		 url("../images/simple-scales.gif");
+			   		 url("../images/simple-scales.gif"), linear-gradient(#8B7765,#CDAF95);
 	background-repeat:no-repeat, repeat-x;
 	background-position:top right, top;
 	font: normal normal .8em 'Roboto', sans-serif; /*Chris, is the set of 
@@ -81,6 +81,16 @@ body{
 	font-size:100%;-----THE OLD VERSION---*/
 	line-height:25px;
 	font-family: 'Roboto Condensed', sans-serif;
+	/* Added color to text & size + a Gradient hack.*/
+	color:#fff;
+	font-size:100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+	/*background: #f0b7a1; /* Old browsers */
+	/*background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+	/*background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
 	
 }
 
@@ -176,13 +186,25 @@ article#cake{
 
 /*-----MULTI COLUMN LAYOUT--------------------*/
 
-div{
+#coulmns{
 	-webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
 }
 
 /*    IS LIQUID LAYOUT TO BE APPLIED TO PHOTOS AS WELL?   */
+
+/*#gradient{
+color:#fff;
+font-size:100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
+/*background: #f0b7a1; /* Old browsers */
+/*background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
+/*background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
+/*background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+
+
 
 
 
