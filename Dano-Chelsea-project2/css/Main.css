@@ -65,11 +65,13 @@ body{
 	width:1050px;
 	margin:10px auto;
 	background-color: rgba(214,126,92,0.8);/* 2nd warm tone*/
-	font-style:normal;
+	font: normal normal .8em 'Roboto', sans-serif; /*Chris, is the set of 
+	"normal normal" nessisary?*/
+	/*font-style:normal;
 	font-weight:normal;
-	font-size:100%;
+	font-size:100%;*/
 	line-height:25px;
-	font-family: 'Roboto', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
 
 
 }
@@ -127,7 +129,9 @@ article#Croquembouche{
 }
 
 article#puffs{
-	width:500px;
+/* for short hand "border properties" you can use them in
+order of 1.width, 2.style, 3.color...*/
+	/*width:500px;
 	height:600px;
 	padding:10px;
 	border:2px;
@@ -135,7 +139,10 @@ article#puffs{
 	border-color:rgba(113,51,38,0.7);
 	border-radius:25px;
 	margin:25px;
-	box-shadow: 10px 10px 5px rgba(0,0,0,.50);
+	box-shadow: 10px 10px 5px rgba(0,0,0,.50);*/
+	/*-------------REDO-----------------------*/
+	
+	
 }
 
 article#cake{
