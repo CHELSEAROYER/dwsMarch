@@ -4,6 +4,7 @@
 nav li{
     display: inline;
     margin: 2.5%;
+    font-size:200%;
 }
 
 /*--------List Style Type -for Beignet -------*/
@@ -58,13 +59,18 @@ p{
     text-indent: 50px;
 }
 
+footer{
+	margin:2%;
+}
+
 /*--------------------------------------------------------*/
 
 body{
 	width:100%;
 	margin:5% auto;
 	/* Added background short hand -But I don't see it al all...*/
-	background:rgba(214,126,92,0.8) url("images/simple-scales.gif") repeat-x top; /* 2nd warm tone*/
+	background:rgba(113,51,38,0.7) url("../images/fork-spoon.png") no-repeat attached top right,
+	url("../images/simple-scales.gif") repeat-x;
 	font: normal normal .8em 'Roboto', sans-serif; /*Chris, is the set of 
 	"normal normal" nessisary?*/
 	/*font-style:normal;
