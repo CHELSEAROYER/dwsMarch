@@ -2,7 +2,7 @@
 nav li{
     display: inline;
     margin: 2.5%;
-    font-size:1.05em;
+    font-size:2.05em;
 }
 
 /*--------List Style Type -for Beignet -------*/
@@ -48,7 +48,7 @@ a:active {
 
 
 h1{
-	font-size:1.125em;
+	font-size:2.125em;
     text-shadow: 2px 1px #000000;
     text-align:center;
     background-color:#000;
@@ -187,9 +187,9 @@ article#cake{
 
 /*-----MULTI COLUMN LAYOUT--------------------*/
 
-div{
+/*div{
 	background-color:#777;
-}
+}*/
 
 #one{
 	float:left;
