@@ -192,21 +192,32 @@ article#cake{
     column-count: 2;
 }
 
-/*    IS LIQUID LAYOUT TO BE APPLIED TO PHOTOS AS WELL?   */
+/*    TABLE STYLE       -----------------------*/
+table{
+	width:45%;
+}
 
-/*#gradient{
-color:#fff;
-font-size:100%;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0b7a1+0,8c3310+50,752201+51,bf6e4e+100;Brown+Gloss */
-/*background: #f0b7a1; /* Old browsers */
-/*background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6-15 */
-/*background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10-25,Safari5.1-6 */
-/*background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+th{
+	height:35px;
+	background-color:#808080;
+	color:#fff;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
 
+td{
+	background-color:#fff;
+    color:#000;
+}
 
-
-
+table, th, td {
+    border: 1px solid rgb(113,51,38);
+    border-collapse:collapse;
+    margin:5%;
+    text-align:center;
+    font-size:100%;
+    padding:10px;
+}
 
 
 
