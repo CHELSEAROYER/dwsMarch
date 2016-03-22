@@ -221,38 +221,38 @@ a special St. Honoré piping tip.</p>
 	<div id="footer">		
 	<footer>
 		<a href="https://en.wikipedia.org/wiki/List_of_choux_pastry_dishes">Visit Wikipedia.com!</a> 
-		<table>
-  			<tr>
+		<table class="Table">
+  			<tr class="Table">
     			<th></th>
     			<th scope="col">Pastry Dish</th>
     			<th scope="col"> Total Prep & Cook Time</th>
  		    </tr>
- 		     <tr>
+ 		     <tr class="Table">
     			<td>1</td>
     			<td>Beignet</td>
     			<td>2hr 30min</td>
   			 </tr>
-  			 <tr>
+  			 <tr class="Table">
     			<td>2</td>
     			<td>Bossche bol</td>
     			<td>50 minutes</td>
   			 </tr>
-  			 <tr>
+  			 <tr class="Table">
     			<td>3</td>
     			<td>Chouquette</td>
     			<td>40 Minutes</td>
   			 </tr>
-  			 <tr>
+  			 <tr class="Table">
     			<td>4</td>
     			<td>Croquembouche</td>
     			<td>4hrs 20min</td>
   			 </tr>
-  			  <tr>
+  			  <tr class="Table">
     			<td>5</td>
     			<td>Nun's puffs</td>
     			<td>45 minutes</td>
   			 </tr>
-  			 <tr>
+  			 <tr class="Table">
     			<td>6</td>
     			<td>St. Honoré cake</td>
     			<td>2hr 25min</td>
@@ -261,6 +261,64 @@ a special St. Honoré piping tip.</p>
 	</footer>	
 	</div>		
 			
-	</div>			
+	</div>	
+	
+<!--The start of my form-->	
+	<div id="textarea" class="form">
+		<form>
+			<p>Submit Your Recipe Here.<br />
+				<textarea  rows="8" cols="10" name="comments" placeholder="What's Your Favorite reccipe?" required="required">
+Write stuff here...
+				</textarea>
+			</p>
+	</div>	
+<!--TEXT INPUT 4 EMAIL-->	
+	<div id="email" class="form">	
+	 	<label for="email">Enter your email address here:</label>
+		<input type="email" name="email" id="email" placeholder="address" required="required">
+	</div>
+	
+
+<!--CHECK BOXES-->
+	<div id="checkBox" class="form">	
+		<p>Time for preparation:<br />
+		<input type="checkbox" name="preference"
+		value="1 hour"
+		checked="checked"/>1 hour
+		<input type="checkbox" name="preference"
+		value="2 hours"/>2 hours
+		<input type="checkbox" name="preference"
+		value="More time"/>More time
+		</p>
+	</div>
+	
+	
+<!--DROP DOWN BAR-->
+	<div id="dropDown" class="form"
+		<p>What type of recipe is this?<br />
+			<select name="location">
+				<option value="seasonal">Seasonal</option>
+				<option value="any time">I cook this all the time</option>
+				<option value="For a wedding">This is for weddings</option>
+				<option value="For a birthday">For a bithday</option>
+				<option value="Breakfast">For breakfast time</option>
+		</p>
+			</select>
+	</div>
+		
+		
+		
+	<div id="submit" class="form"
+		<form action="http://www.randomurl.com">
+			<p>Share Your Recipe</p>
+			<input name="email" type="text">
+			<input name="Submit" value="Submit" type="submit">
+		</form>	
+	</div>		
+			
+		
+		
+
+		
 </body>
 </html>

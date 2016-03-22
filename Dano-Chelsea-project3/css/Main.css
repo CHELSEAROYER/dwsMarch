@@ -2,7 +2,7 @@
 nav li{
     display: inline;
     margin: 2.5%;
-    font-size:2.05em;
+    font-size:1.50em;
 }
 
 /*--------List Style Type -for Beignet -------*/
@@ -271,6 +271,10 @@ th{
 	letter-spacing:1px;
 }
 
+.Table tr:hover td {
+	background-color:f3c56e;
+}
+
 td{
 	background-color:#fff;
     color:#000;
@@ -282,7 +286,11 @@ table, th, td {
     margin:5%;
     text-align:center;
     font-size:1em;
-    padding:10px;
+    padding:5px;
+}
+
+tr:hover{
+	background-color:f3c56e;
 }
 
 
@@ -290,6 +298,36 @@ table, th, td {
 	clear:both;
 }
 
+/*--------------------------form*/
+
+.form{
+	float:left;
+	width:15.5%;
+	height:100px;
+	padding:2%;
+	margin:1% auto;
+	font-size:1.000em;
+	border-style:groove;
+	text-align: top center;
+	background-color: #ffc6a3;
+	overflow:auto;
+	color:#6B6969;
+}
+
+input:hover{
+	background-color:f3c56e;
+	
+}
+
+input:focus{
+	background-color:00ffff;
+}
+
+#checkBox{
+	position:relative;
+	display:block;
+	vertical-align:middle;
+}
 
 
 
