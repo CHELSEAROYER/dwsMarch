@@ -271,7 +271,7 @@ a special St. Honoré piping tip.</p>
 	</div>
 	<!--end content-->	
 	
-<!--The start of my form-->	
+<!--The start of my form	
 	<div id="textarea" class="form">
 		<form>
 			<p>Submit Your Recipe Here.<br />
@@ -279,20 +279,19 @@ a special St. Honoré piping tip.</p>
 Write stuff here...
 				</textarea>
 			</p>
-		</form>	
-	</div>
-	<!--end content-->	
-<!--TEXT INPUT 4 EMAIL-->	
+		</form>	--->
+<!--	</div>
+		
 	<div id="email" class="form">
 		<form>	
-	 		<label for="email">Enter your email address here:</label>
-			<input type="email" name="email" id="emailAddress" placeholder="address" required="required">
+	 		<p>Enter your email address here:</p>
+			<input name="email" type="email">
+			<input value="Submit" type="submit">
 		</form>
-	</div>
-	<!--end content-->
+	</div>-->
 	
 
-<!--CHECK BOXES-->
+<!--CHECK BOXES
 	<div id="checkBox" class="form">
 		<form>	
 			<p>Time for preparation:<br />
@@ -305,11 +304,10 @@ Write stuff here...
 				value="More time"/>More time
 			</p>
 		</form>
-	</div>
-	<!--end content-->
+	</div>-->
 	
 	
-<!--DROP DOWN BAR-->
+<!--DROP DOWN BAR
 	<div id="dropDown" class="form">
 		<form>
 			<p>What type of recipe is this?<br />
@@ -322,19 +320,55 @@ Write stuff here...
 	
 			</select>
 		</form>
-	</div>
-	<!--end content-->
+	</div>-->
+	
 		
 		
-		
-	<div id="submit" class="form"
-		<form action="http://www.randomurl.com">
+	
+	
+	<!--text area html-->	
+	<div id="newform">
+		<form>
+			<p>Submit Your Recipe Here.<br />
+				<textarea name="comments" placeholder="What's Your Favorite reccipe?" required="required">
+Write stuff here...
+				</textarea>
+			</p>
+			<!--email input-->
+			<p>Enter your email address here:</p>
+			<label for="Email">Email</label>
+			<input name="email" type="email">
+			
+			
+			<!--check box-->
+			<div id="checkbox">
+			<p>Time for preparation:<br />
+				<input type="checkbox" name="preference"
+				value="1 hour"
+				checked="checked"/>1 hour
+				<input type="checkbox" name="preference"
+				value="2 hours"/>2 hours
+				<input type="checkbox" name="preference"
+				value="More time"/>More time
+			</p>
+			</div>
+			<!--drop down-->
+			<p>What type of recipe is this?<br />
+				<select name="location">
+					<option value="seasonal">Seasonal</option>
+					<option value="any time">I cook this all the time</option>
+					<option value="For a wedding">This is for weddings</option>
+					<option value="For a birthday">For a bithday</option>
+					<option value="Breakfast">For breakfast time</option>
+			
+			<!--submit-->
+			<form action="http://www.randomurl.com">
 			<p>Share Your Recipe</p>
-			<input name="email" type="text">
+			<!--<label for="whatsYourName">What's Your Name?</label>-->
 			<input name="Submit" value="Submit" type="submit">
-		</form>	
-	</div>
-	<!--end content-->		
+			
+		</form>
+	</div>	
 			
 		
 		

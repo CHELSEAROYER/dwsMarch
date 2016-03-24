@@ -233,11 +233,6 @@ article#cake{
 	padding:0%;
 }
 
-.clear{
-	/*clear:left;*/
-	overflow:contain;
-}
-
 
 /*.twoCoulmn{
 	float:left;
@@ -271,9 +266,6 @@ th{
 	letter-spacing:1px;
 }
 
-.Table tr:hover td {
-	background-color:f3c56e;
-}
 
 td{
 	background-color:#fff;
@@ -290,7 +282,11 @@ table, th, td {
 }
 
 tr:hover{
-	background-color:f3c56e;
+	background-color:#ff9933;
+}
+
+.Table tr:hover td {
+	background-color:#ff9933;
 }
 
 
@@ -300,27 +296,28 @@ tr:hover{
 
 /*--------------------------form*/
 
-.form{
+#newform{
 	float:left;
-	width:15.5%;
-	height:100px;
-	padding:2%;
-	margin:1% auto;
+	width:20%;
+	height:350px;
+	padding:3%;
+	margin-right:25%;
+	margin-left:35%;
 	font-size:1.000em;
 	border-style:groove;
-	text-align: top center;
+	text-align:center;
 	background-color: #ffc6a3;
 	overflow:auto;
 	color:#6B6969;
 }
 
 input:hover{
-	background-color:f3c56e;
+	background-color:#f3c56e;
 	
 }
 
 input:focus{
-	background-color:00ffff;
+	background-color:#00ffff;
 }
 
 #checkBox{
