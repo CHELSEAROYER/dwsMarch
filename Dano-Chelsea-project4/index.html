@@ -279,7 +279,7 @@ a special St. Honoré piping tip.</p>
 Write stuff here...
 				</textarea>
 			</p>
-		</form>	--->
+		</form>-->
 <!--	</div>
 		
 	<div id="email" class="form">
@@ -336,7 +336,9 @@ Write stuff here...
 			</p>
 			<!--email input-->
 			<p>Enter your email address here:</p>
-			<label for="Email">Email</label>
+			<label for="Email">Email</label><!--validator 
+			says "The for attribute of the label element 
+			must refer to a non-hidden form control??"-->
 			<input name="email" type="email">
 			
 			
@@ -362,11 +364,9 @@ Write stuff here...
 					<option value="Breakfast">For breakfast time</option>
 			
 			<!--submit-->
-			<form action="http://www.randomurl.com">
-			<p>Share Your Recipe</p>
-			<!--<label for="whatsYourName">What's Your Name?</label>-->
-			<input name="Submit" value="Submit" type="submit">
-			
+			<input type="submit" value="Submit">
+			<!--somethings incorrect here, the code
+			is not validating for line 367.-->
 		</form>
 	</div>	
 			
